@@ -1,0 +1,47 @@
+fileID = fopen('results_35.txt','wt');
+
+     X=zeros(2*66*5*6);
+ for i=1:401
+     budget(i)=(i-1)*50;
+     [X,fval(i)]=high_risk_screening_irregular_policy((i-1)*50,10,X,fileID);
+ end
+
+fval=-fval;
+plot(budget,fval,'*',budget,fval,':')
+
+fclose(fileID);
+
+fval'
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%             $0	$0%             $279	$271	%             $508	$493%             $1,258	$1,221%             $2,232	$2,167%             $16,451	$15,972%             $16,728	$16,241	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+fileID = fopen('results_35.txt','wt');
+
+     X=zeros(2*66*5*6);
+
+      budget(1) =   279/1.03 ;
+      budget(2) =   508/1.03 ;
+      budget(3) =  1258/1.03 ;
+      budget(4) =  2232/1.03 ;
+      budget(5) = 16451/1.03 ;
+      budget(6) = 16728/1.03 ;
+
+      budget    = budget + 1 ;
+
+     [ X , fval(1) ]= high_risk_screening_irregular_policy( budget(1) , 10 , X , fileID );
+     [ X , fval(2) ]= high_risk_screening_irregular_policy( budget(2) , 10 , X , fileID );
+     [ X , fval(3) ]= high_risk_screening_irregular_policy( budget(3) , 10 , X , fileID );
+     [ X , fval(4) ]= high_risk_screening_irregular_policy( budget(4) , 10 , X , fileID );
+     [ X , fval(5) ]= high_risk_screening_irregular_policy( budget(5) , 10 , X , fileID );
+     [ X , fval(6) ]= high_risk_screening_irregular_policy( budget(6) , 10 , X , fileID );
+
+fval=-fval;
+
+fclose(fileID);
+
+fval'
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

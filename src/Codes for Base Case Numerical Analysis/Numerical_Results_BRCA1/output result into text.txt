@@ -1,0 +1,104 @@
+-fval
+fprintf(fileID,'QALYs: %f\n',-fval);
+
+exitflag
+fprintf(fileID,'Code worked properly: %f\n',exitflag);
+
+output
+
+%-------------------------------------------------------------------------
+%----------------------------READ THE SOLUTION----------------------------
+
+fprintf('\n');
+
+epsilon = 0.00002;
+
+for k = 1: N_BC
+fprintf(' Budget (%d-%d) is %d \n',(k-1)*TI_BC+1,k*TI_BC,b_C(k));
+fprintf(fileID,' Budget (%d-%d) is %d \n',(k-1)*TI_BC+1,k*TI_BC,b_C(k));
+end
+if(Z>0)
+fprintf(' Budget (%d-%d) is %d \n',(N_BC)*TI_BC+1,Time-1,b_C(N_BC+1));
+fprintf(fileID,' Budget (%d-%d) is %d \n',(N_BC)*TI_BC+1,Time-1,b_C(N_BC+1));
+end
+
+fprintf('\n The Optimal Actions \n\n');
+fprintf(fileID,'\n The Optimal Actions \n\n');
+
+for t = 1 : Time-1
+
+    MATRIX = timely_dec(t);
+
+    for act = 1 : Action
+         
+         if ( MATRIX(act,1) >= epsilon )
+            fprintf('time = %d action = %d\n',t,act);
+            fprintf(fileID,'time = %d action = %d\n',t,act);
+         end
+    end 
+
+    MATRIX = [];
+
+end 
+
+%-------------------------------------------------------------------------
+%------------------------COMPUTE THE COST---------------------------------
+fprintf('\n');
+fprintf(fileID,'\n');
+for k = 1: N_BC
+
+fprintf('Cost(%d-%d)= %f \n',TI_BC*k,TI_BC*(k-1)+1,Budget_Constraint(k,:)*X(1:2*AST));
+fprintf(fileID,'Cost(%d-%d)= %f \n',TI_BC*k,TI_BC*(k-1)+1,Budget_Constraint(k,:)*X(1:2*AST));
+
+end
+
+if(Z>0)
+fprintf('Cost(%d-%d)= %f \n',Time-1,TI_BC*(N_BC)+1,Budget_Constraint(N_BC+1,:)*X(1:2*AST));
+fprintf(fileID,'Cost(%d-%d)= %f \n',Time-1,TI_BC*(N_BC)+1,Budget_Constraint(N_BC+1,:)*X(1:2*AST));
+end
+
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+%---------------------------REWARD/OBJECTIVE FUNCTION------------------------ 
+%for k = 1 : Time*Action
+%profit(k,:) = [ f((k-1)*State+1) f((k-1)*State+2) f((k-1)*State+3) f((k-1)*State+4) f((k-1)*State+5) f((k-1)*State+6) ];
+%end
+
+%timely_profit = @(z) [ profit( (z-1)*Action+1,: ); profit( (z-1)*Action+2,:  ); profit( (z-1)*Action+3,:  ); profit( (z-1)*Action+4,:  ); profit( (z-1)*Action+5,:  ) ];
+
+%for z= 1:Time
+%fprintf('time: %d\n',z);
+%-timely_profit(z)
+%fprintf('-------------------------------\n');
+
+%end
+%-------------------------------------------------------------------------
+
+
+% %ENFORCED POLICY%
+% 
+% for k=1:N_BC
+%    if ( X(2*AST+k) >= 0.950 )
+%    fprintf('\n (%d-%d) = 3 year Policy', 25+(k-1)*12, 25-1+k*12)
+%    else
+%    fprintf('\n (%d-%d) = 4 year Policy', 25+(k-1)*12, 25-1+k*12)
+%    end
+% end
+    fprintf('\n');
+    fprintf(fileID,'\n');
+i=1;
+fprintf( ' 1=every year \n 2=every 2 year  \n 3=every 5 year  \n 0=ever 10 year \n \n' );
+fprintf(fileID, ' 1=every year \n 2=every 2 year  \n 3=every 5 year  \n 0=ever 10 year \n \n' );
+ for m = 1 : (N_BC+1)*N_OPTIONS
+         if ( X(2*AST+m) >= 0.950  )             
+         fprintf( '%d th cycle = %d \n',i ,mod(m,4) );
+         fprintf(fileID, '%d th cycle = %d \n',i ,mod(m,4) );
+         i=i+1;
+         end
+ end
+
+           end
+
+            fprintf(fileID,'\n');
+end

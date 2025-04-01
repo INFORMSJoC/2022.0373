@@ -1,0 +1,5167 @@
+Cost(20-11)= 1261.394040 
+Cost(30-21)= 1204.285655 
+Cost(40-31)= 1098.344373 
+Cost(50-41)= 894.900256 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601876197223675
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2279
+            algorithm: 12
+                 time: 0.719000000000051
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 2600 
+ Budget (11-20) is 2600 
+ Budget (21-30) is 2600 
+ Budget (31-40) is 2600 
+ Budget (41-50) is 2600 
+ Budget (51-60) is 2600 
+ Budget (61-65) is 1300 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394040 
+Cost(30-21)= 1204.286795 
+Cost(40-31)= 1098.343852 
+Cost(50-41)= 894.900256 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875553605076
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2322
+            algorithm: 12
+                 time: 0.827999999999975
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 2650 
+ Budget (11-20) is 2650 
+ Budget (21-30) is 2650 
+ Budget (31-40) is 2650 
+ Budget (41-50) is 2650 
+ Budget (51-60) is 2650 
+ Budget (61-65) is 1325 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394040 
+Cost(30-21)= 1204.286161 
+Cost(40-31)= 1098.344393 
+Cost(50-41)= 894.900256 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875641184506
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2528
+            algorithm: 12
+                 time: 0.827999999999975
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 2700 
+ Budget (11-20) is 2700 
+ Budget (21-30) is 2700 
+ Budget (31-40) is 2700 
+ Budget (41-50) is 2700 
+ Budget (51-60) is 2700 
+ Budget (61-65) is 1350 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394040 
+Cost(30-21)= 1204.286166 
+Cost(40-31)= 1098.344394 
+Cost(50-41)= 894.900256 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875265885027
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2904
+            algorithm: 12
+                 time: 0.875000000000000
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 2750 
+ Budget (11-20) is 2750 
+ Budget (21-30) is 2750 
+ Budget (31-40) is 2750 
+ Budget (41-50) is 2750 
+ Budget (51-60) is 2750 
+ Budget (61-65) is 1375 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394040 
+Cost(30-21)= 1204.285302 
+Cost(40-31)= 1098.345224 
+Cost(50-41)= 894.900256 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875683463895
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2798
+            algorithm: 12
+                 time: 0.875000000000000
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 2850 
+ Budget (11-20) is 2850 
+ Budget (21-30) is 2850 
+ Budget (31-40) is 2850 
+ Budget (41-50) is 2850 
+ Budget (51-60) is 2850 
+ Budget (61-65) is 1425 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394040 
+Cost(30-21)= 1204.285892 
+Cost(40-31)= 1098.343233 
+Cost(50-41)= 894.900247 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875593927744
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2293
+            algorithm: 12
+                 time: 0.875000000000000
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 2900 
+ Budget (11-20) is 2900 
+ Budget (21-30) is 2900 
+ Budget (31-40) is 2900 
+ Budget (41-50) is 2900 
+ Budget (51-60) is 2900 
+ Budget (61-65) is 1450 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394040 
+Cost(30-21)= 1204.286163 
+Cost(40-31)= 1098.344392 
+Cost(50-41)= 894.900256 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875799875842
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2401
+            algorithm: 12
+                 time: 0.905999999999949
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 3700 
+ Budget (11-20) is 3700 
+ Budget (21-30) is 3700 
+ Budget (31-40) is 3700 
+ Budget (41-50) is 3700 
+ Budget (51-60) is 3700 
+ Budget (61-65) is 1850 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.393936 
+Cost(30-21)= 1204.285410 
+Cost(40-31)= 1098.345232 
+Cost(50-41)= 894.900491 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 1 
+
+ans =
+
+  43.601875264290740
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2497
+            algorithm: 12
+                 time: 0.983999999999469
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 3750 
+ Budget (11-20) is 3750 
+ Budget (21-30) is 3750 
+ Budget (31-40) is 3750 
+ Budget (41-50) is 3750 
+ Budget (51-60) is 3750 
+ Budget (61-65) is 1875 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.393900 
+Cost(30-21)= 1204.285258 
+Cost(40-31)= 1098.345237 
+Cost(50-41)= 894.900254 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 1 
+
+ans =
+
+  43.601875507251350
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2894
+            algorithm: 12
+                 time: 1.172000000000480
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 3800 
+ Budget (11-20) is 3800 
+ Budget (21-30) is 3800 
+ Budget (31-40) is 3800 
+ Budget (41-50) is 3800 
+ Budget (51-60) is 3800 
+ Budget (61-65) is 1900 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285254 
+Cost(40-31)= 1098.345228 
+Cost(50-41)= 894.900377 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875221559382
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2788
+            algorithm: 12
+                 time: 1
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 3850 
+ Budget (11-20) is 3850 
+ Budget (21-30) is 3850 
+ Budget (31-40) is 3850 
+ Budget (41-50) is 3850 
+ Budget (51-60) is 3850 
+ Budget (61-65) is 1925 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285254 
+Cost(40-31)= 1098.345228 
+Cost(50-41)= 894.900255 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875216187153
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2291
+            algorithm: 12
+                 time: 0.859000000000378
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 3950 
+ Budget (11-20) is 3950 
+ Budget (21-30) is 3950 
+ Budget (31-40) is 3950 
+ Budget (41-50) is 3950 
+ Budget (51-60) is 3950 
+ Budget (61-65) is 1975 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285254 
+Cost(40-31)= 1098.345227 
+Cost(50-41)= 894.900255 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875896381380
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 3165
+            algorithm: 12
+                 time: 1
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 4000 
+ Budget (11-20) is 4000 
+ Budget (21-30) is 4000 
+ Budget (31-40) is 4000 
+ Budget (41-50) is 4000 
+ Budget (51-60) is 4000 
+ Budget (61-65) is 2000 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285129 
+Cost(40-31)= 1098.345233 
+Cost(50-41)= 894.900456 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875896312265
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 3135
+            algorithm: 12
+                 time: 1
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 4050 
+ Budget (11-20) is 4050 
+ Budget (21-30) is 4050 
+ Budget (31-40) is 4050 
+ Budget (41-50) is 4050 
+ Budget (51-60) is 4050 
+ Budget (61-65) is 2025 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285130 
+Cost(40-31)= 1098.345236 
+Cost(50-41)= 894.900456 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875045400348
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2497
+            algorithm: 12
+                 time: 0.875000000000000
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 4100 
+ Budget (11-20) is 4100 
+ Budget (21-30) is 4100 
+ Budget (31-40) is 4100 
+ Budget (41-50) is 4100 
+ Budget (51-60) is 4100 
+ Budget (61-65) is 2050 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.393768 
+Cost(30-21)= 1204.285557 
+Cost(40-31)= 1098.345236 
+Cost(50-41)= 894.900255 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601876059745059
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2409
+            algorithm: 12
+                 time: 0.842999999999847
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 4200 
+ Budget (11-20) is 4200 
+ Budget (21-30) is 4200 
+ Budget (31-40) is 4200 
+ Budget (41-50) is 4200 
+ Budget (51-60) is 4200 
+ Budget (61-65) is 2100 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.393768 
+Cost(30-21)= 1204.290482 
+Cost(40-31)= 1098.345235 
+Cost(50-41)= 894.900255 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875482902187
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2785
+            algorithm: 12
+                 time: 1.031000000000859
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 4250 
+ Budget (11-20) is 4250 
+ Budget (21-30) is 4250 
+ Budget (31-40) is 4250 
+ Budget (41-50) is 4250 
+ Budget (51-60) is 4250 
+ Budget (61-65) is 2125 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285407 
+Cost(40-31)= 1098.345237 
+Cost(50-41)= 894.900441 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875284714993
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2474
+            algorithm: 12
+                 time: 0.859000000000378
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 4500 
+ Budget (11-20) is 4500 
+ Budget (21-30) is 4500 
+ Budget (31-40) is 4500 
+ Budget (41-50) is 4500 
+ Budget (51-60) is 4500 
+ Budget (61-65) is 2250 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394055 
+Cost(30-21)= 1204.286595 
+Cost(40-31)= 1098.345229 
+Cost(50-41)= 894.900255 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875082333621
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 3240
+            algorithm: 12
+                 time: 1.030999999999949
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 4550 
+ Budget (11-20) is 4550 
+ Budget (21-30) is 4550 
+ Budget (31-40) is 4550 
+ Budget (41-50) is 4550 
+ Budget (51-60) is 4550 
+ Budget (61-65) is 2275 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.393716 
+Cost(30-21)= 1204.285452 
+Cost(40-31)= 1098.345233 
+Cost(50-41)= 894.900255 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875690516444
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 3046
+            algorithm: 12
+                 time: 0.969000000000051
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 4600 
+ Budget (11-20) is 4600 
+ Budget (21-30) is 4600 
+ Budget (31-40) is 4600 
+ Budget (41-50) is 4600 
+ Budget (51-60) is 4600 
+ Budget (61-65) is 2300 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285130 
+Cost(40-31)= 1098.345236 
+Cost(50-41)= 894.900369 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875690511349
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 3018
+            algorithm: 12
+                 time: 0.968999999999141
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 4650 
+ Budget (11-20) is 4650 
+ Budget (21-30) is 4650 
+ Budget (31-40) is 4650 
+ Budget (41-50) is 4650 
+ Budget (51-60) is 4650 
+ Budget (61-65) is 2325 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285127 
+Cost(40-31)= 1098.345236 
+Cost(50-41)= 894.900369 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875647210946
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 3015
+            algorithm: 12
+                 time: 0.984999999999673
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 4700 
+ Budget (11-20) is 4700 
+ Budget (21-30) is 4700 
+ Budget (31-40) is 4700 
+ Budget (41-50) is 4700 
+ Budget (51-60) is 4700 
+ Budget (61-65) is 2350 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285127 
+Cost(40-31)= 1098.345236 
+Cost(50-41)= 894.900355 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875483873165
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2995
+            algorithm: 12
+                 time: 0.938000000000102
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 4750 
+ Budget (11-20) is 4750 
+ Budget (21-30) is 4750 
+ Budget (31-40) is 4750 
+ Budget (41-50) is 4750 
+ Budget (51-60) is 4750 
+ Budget (61-65) is 2375 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.393912 
+Cost(30-21)= 1204.285404 
+Cost(40-31)= 1098.345236 
+Cost(50-41)= 894.900355 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601876406482994
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 3037
+            algorithm: 12
+                 time: 1
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 4850 
+ Budget (11-20) is 4850 
+ Budget (21-30) is 4850 
+ Budget (31-40) is 4850 
+ Budget (41-50) is 4850 
+ Budget (51-60) is 4850 
+ Budget (61-65) is 2425 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394055 
+Cost(30-21)= 1204.290508 
+Cost(40-31)= 1098.345217 
+Cost(50-41)= 894.900378 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875072418103
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2577
+            algorithm: 12
+                 time: 0.859000000000378
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 5000 
+ Budget (11-20) is 5000 
+ Budget (21-30) is 5000 
+ Budget (31-40) is 5000 
+ Budget (41-50) is 5000 
+ Budget (51-60) is 5000 
+ Budget (61-65) is 2500 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.393716 
+Cost(30-21)= 1204.285452 
+Cost(40-31)= 1098.345233 
+Cost(50-41)= 894.900254 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875072418110
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2796
+            algorithm: 12
+                 time: 0.890000000000327
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 5600 
+ Budget (11-20) is 5600 
+ Budget (21-30) is 5600 
+ Budget (31-40) is 5600 
+ Budget (41-50) is 5600 
+ Budget (51-60) is 5600 
+ Budget (61-65) is 2800 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.393716 
+Cost(30-21)= 1204.285452 
+Cost(40-31)= 1098.345233 
+Cost(50-41)= 894.900254 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875185783818
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2752
+            algorithm: 12
+                 time: 1.015999999999622
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 6050 
+ Budget (11-20) is 6050 
+ Budget (21-30) is 6050 
+ Budget (31-40) is 6050 
+ Budget (41-50) is 6050 
+ Budget (51-60) is 6050 
+ Budget (61-65) is 3025 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285251 
+Cost(40-31)= 1098.345223 
+Cost(50-41)= 894.900256 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875459489150
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2710
+            algorithm: 12
+                 time: 0.937000000000808
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 6450 
+ Budget (11-20) is 6450 
+ Budget (21-30) is 6450 
+ Budget (31-40) is 6450 
+ Budget (41-50) is 6450 
+ Budget (51-60) is 6450 
+ Budget (61-65) is 3225 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285252 
+Cost(40-31)= 1098.345222 
+Cost(50-41)= 894.900378 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875479041219
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2604
+            algorithm: 12
+                 time: 0.969000000000051
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 6650 
+ Budget (11-20) is 6650 
+ Budget (21-30) is 6650 
+ Budget (31-40) is 6650 
+ Budget (41-50) is 6650 
+ Budget (51-60) is 6650 
+ Budget (61-65) is 3325 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285252 
+Cost(40-31)= 1098.345227 
+Cost(50-41)= 894.900377 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875460451055
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2671
+            algorithm: 12
+                 time: 0.953000000000429
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 7150 
+ Budget (11-20) is 7150 
+ Budget (21-30) is 7150 
+ Budget (31-40) is 7150 
+ Budget (41-50) is 7150 
+ Budget (51-60) is 7150 
+ Budget (61-65) is 3575 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285252 
+Cost(40-31)= 1098.345223 
+Cost(50-41)= 894.900378 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875479041219
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2604
+            algorithm: 12
+                 time: 1.359999999999673
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 7200 
+ Budget (11-20) is 7200 
+ Budget (21-30) is 7200 
+ Budget (31-40) is 7200 
+ Budget (41-50) is 7200 
+ Budget (51-60) is 7200 
+ Budget (61-65) is 3600 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285252 
+Cost(40-31)= 1098.345227 
+Cost(50-41)= 894.900377 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875479039542
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2647
+            algorithm: 12
+                 time: 0.952999999999520
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 7650 
+ Budget (11-20) is 7650 
+ Budget (21-30) is 7650 
+ Budget (31-40) is 7650 
+ Budget (41-50) is 7650 
+ Budget (51-60) is 7650 
+ Budget (61-65) is 3825 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285252 
+Cost(40-31)= 1098.345227 
+Cost(50-41)= 894.900377 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 1 
+
+ans =
+
+  43.601875507969737
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2614
+            algorithm: 12
+                 time: 1.015999999999622
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 7700 
+ Budget (11-20) is 7700 
+ Budget (21-30) is 7700 
+ Budget (31-40) is 7700 
+ Budget (41-50) is 7700 
+ Budget (51-60) is 7700 
+ Budget (61-65) is 3850 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285252 
+Cost(40-31)= 1098.345227 
+Cost(50-41)= 894.901004 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 1 
+
+ans =
+
+  43.601875191052258
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2223
+            algorithm: 12
+                 time: 0.921999999999571
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 7750 
+ Budget (11-20) is 7750 
+ Budget (21-30) is 7750 
+ Budget (31-40) is 7750 
+ Budget (41-50) is 7750 
+ Budget (51-60) is 7750 
+ Budget (61-65) is 3875 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285044 
+Cost(40-31)= 1098.345227 
+Cost(50-41)= 894.900255 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875911399937
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 3330
+            algorithm: 12
+                 time: 1.125000000000000
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 8250 
+ Budget (11-20) is 8250 
+ Budget (21-30) is 8250 
+ Budget (31-40) is 8250 
+ Budget (41-50) is 8250 
+ Budget (51-60) is 8250 
+ Budget (61-65) is 4125 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285233 
+Cost(40-31)= 1098.345319 
+Cost(50-41)= 894.900377 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875565425388
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2808
+            algorithm: 12
+                 time: 1.061999999999898
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 8300 
+ Budget (11-20) is 8300 
+ Budget (21-30) is 8300 
+ Budget (31-40) is 8300 
+ Budget (41-50) is 8300 
+ Budget (51-60) is 8300 
+ Budget (61-65) is 4150 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285234 
+Cost(40-31)= 1098.345207 
+Cost(50-41)= 894.900376 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875230177924
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2401
+            algorithm: 12
+                 time: 0.859999999999673
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 8350 
+ Budget (11-20) is 8350 
+ Budget (21-30) is 8350 
+ Budget (31-40) is 8350 
+ Budget (41-50) is 8350 
+ Budget (51-60) is 8350 
+ Budget (61-65) is 4175 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285381 
+Cost(40-31)= 1098.345057 
+Cost(50-41)= 894.900256 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875138265960
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2598
+            algorithm: 12
+                 time: 1.046999999999571
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 8400 
+ Budget (11-20) is 8400 
+ Budget (21-30) is 8400 
+ Budget (31-40) is 8400 
+ Budget (41-50) is 8400 
+ Budget (51-60) is 8400 
+ Budget (61-65) is 4200 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.393912 
+Cost(30-21)= 1204.285423 
+Cost(40-31)= 1098.345225 
+Cost(50-41)= 894.900255 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875208960507
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2620
+            algorithm: 12
+                 time: 0.922000000000480
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 8450 
+ Budget (11-20) is 8450 
+ Budget (21-30) is 8450 
+ Budget (31-40) is 8450 
+ Budget (41-50) is 8450 
+ Budget (51-60) is 8450 
+ Budget (61-65) is 4225 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285250 
+Cost(40-31)= 1098.345228 
+Cost(50-41)= 894.900255 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875184814929
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2843
+            algorithm: 12
+                 time: 1.078999999999724
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 8500 
+ Budget (11-20) is 8500 
+ Budget (21-30) is 8500 
+ Budget (31-40) is 8500 
+ Budget (41-50) is 8500 
+ Budget (51-60) is 8500 
+ Budget (61-65) is 4250 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285248 
+Cost(40-31)= 1098.345228 
+Cost(50-41)= 894.900255 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875339917449
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 3081
+            algorithm: 12
+                 time: 1.063000000000102
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 8550 
+ Budget (11-20) is 8550 
+ Budget (21-30) is 8550 
+ Budget (31-40) is 8550 
+ Budget (41-50) is 8550 
+ Budget (51-60) is 8550 
+ Budget (61-65) is 4275 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285003 
+Cost(40-31)= 1098.344631 
+Cost(50-41)= 894.900268 
+Cost(60-51)= 159.736257 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 1 
+
+ans =
+
+  43.601875196373477
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2806
+            algorithm: 12
+                 time: 1.077999999999520
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 8600 
+ Budget (11-20) is 8600 
+ Budget (21-30) is 8600 
+ Budget (31-40) is 8600 
+ Budget (41-50) is 8600 
+ Budget (51-60) is 8600 
+ Budget (61-65) is 4300 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394084 
+Cost(30-21)= 1204.285281 
+Cost(40-31)= 1098.345227 
+Cost(50-41)= 894.900255 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875329023670
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 2758
+            algorithm: 12
+                 time: 1.078999999999724
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 8650 
+ Budget (11-20) is 8650 
+ Budget (21-30) is 8650 
+ Budget (31-40) is 8650 
+ Budget (41-50) is 8650 
+ Budget (51-60) is 8650 
+ Budget (61-65) is 4325 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394135 
+Cost(30-21)= 1204.285232 
+Cost(40-31)= 1098.345229 
+Cost(50-41)= 894.900255 
+Cost(60-51)= 159.736258 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875586023738
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 3183
+            algorithm: 12
+                 time: 1.297000000000480
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 8700 
+ Budget (11-20) is 8700 
+ Budget (21-30) is 8700 
+ Budget (31-40) is 8700 
+ Budget (41-50) is 8700 
+ Budget (51-60) is 8700 
+ Budget (61-65) is 4350 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394135 
+Cost(30-21)= 1204.286353 
+Cost(40-31)= 1098.345229 
+Cost(50-41)= 894.900377 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 
+
+ans =
+
+  43.601875592384317
+
+
+exitflag =
+
+     1
+
+
+output = 
+
+          cplexstatus: 101
+    cplexstatusstring: 'integer optimal solution'
+           iterations: 3421
+            algorithm: 12
+                 time: 1.311999999999898
+              message: 'Function converged to a solution x.'
+
+
+ Budget (1-10) is 8850 
+ Budget (11-20) is 8850 
+ Budget (21-30) is 8850 
+ Budget (31-40) is 8850 
+ Budget (41-50) is 8850 
+ Budget (51-60) is 8850 
+ Budget (61-65) is 4425 
+
+ The Optimal Actions 
+
+time = 1 action = 4
+time = 2 action = 4
+time = 3 action = 4
+time = 4 action = 4
+time = 5 action = 4
+time = 6 action = 4
+time = 7 action = 4
+time = 8 action = 4
+time = 9 action = 4
+time = 10 action = 4
+time = 11 action = 4
+time = 12 action = 4
+time = 13 action = 4
+time = 14 action = 4
+time = 15 action = 4
+time = 16 action = 4
+time = 17 action = 4
+time = 18 action = 4
+time = 19 action = 4
+time = 20 action = 4
+time = 21 action = 4
+time = 22 action = 4
+time = 23 action = 4
+time = 24 action = 4
+time = 25 action = 4
+time = 26 action = 4
+time = 27 action = 4
+time = 28 action = 4
+time = 29 action = 4
+time = 30 action = 4
+time = 31 action = 4
+time = 32 action = 4
+time = 33 action = 4
+time = 34 action = 4
+time = 35 action = 4
+time = 36 action = 4
+time = 37 action = 4
+time = 38 action = 4
+time = 39 action = 4
+time = 40 action = 4
+time = 41 action = 4
+time = 42 action = 4
+time = 43 action = 4
+time = 44 action = 4
+time = 45 action = 4
+time = 46 action = 4
+time = 47 action = 4
+time = 48 action = 4
+time = 49 action = 4
+time = 50 action = 4
+time = 51 action = 4
+time = 52 action = 1
+time = 53 action = 1
+time = 54 action = 1
+time = 55 action = 1
+time = 56 action = 4
+time = 57 action = 1
+time = 58 action = 1
+time = 59 action = 1
+time = 60 action = 1
+time = 61 action = 1
+time = 62 action = 1
+time = 63 action = 1
+time = 64 action = 1
+time = 65 action = 1
+
+Cost(10-1)= 1838.989401 
+Cost(20-11)= 1261.394135 
+Cost(30-21)= 1204.286130 
+Cost(40-31)= 1098.345227 
+Cost(50-41)= 894.900377 
+Cost(60-51)= 159.736256 
+Cost(65-61)= 0.000000 
+
+ 1=every year 
+ 2=every 2 year  
+ 3=every 5 year  
+ 0=ever 10 year 
+ 
+1 th cycle = 1 
+2 th cycle = 1 
+3 th cycle = 1 
+4 th cycle = 1 
+5 th cycle = 1 
+6 th cycle = 3 
+7 th cycle = 2 

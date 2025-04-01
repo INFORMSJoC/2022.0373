@@ -1,0 +1,220 @@
+action = 5;
+state  = 6;
+
+A = action;
+S =  state;
+
+
+
+
+Current_Age = 25 ;             % Adjust the age 
+
+
+
+
+range = @(x) (100-x) + 1 ;
+
+T = range(Current_Age) ;
+
+
+
+
+f_1_US  = ' U N N N N N N N N N ';
+f_2_US  = ' U N N N N U N N N N ';
+f_5_US  = ' U N U N U N U N U N ';
+f_10_US = ' U U U U U U U U U U ';
+f_1_MAM  = ' M N N N N N N N N N ';
+f_2_MAM  = ' M N N N N M N N N N ';
+f_5_MAM  = ' M N M N M N M N M N ';
+f_10_MAM = ' M M M M M M M M M M ';
+f_1_MRI  = ' R N N N N N N N N N ';
+f_2_MRI  = ' R N N N N R N N N N ';
+f_5_MRI  = ' R N R N R N R N R N ';
+f_10_MRI = ' R R R R R R R R R R ';
+f_1_MAM_MRI  = ' C N N N N N N N N N ';
+f_2_MAM_MRI  = ' C N N N N C N N N N ';
+f_5_MAM_MRI  = ' C N C N C N C N C N ';
+f_10_MAM_MRI = ' C C C C C C C C C C ';
+NO_SCR = ' N N N N N N N N N N ';
+
+
+
+
+
+% Please comment out the policy (below) that you want to evaluate/implement.
+
+
+
+
+
+%    data_C = [ NO_SCR  NO_SCR  NO_SCR  NO_SCR  NO_SCR  NO_SCR  NO_SCR 'N N N N N ' ];
+
+     budget=0;
+
+%   data_C = [ f_1_US  NO_SCR  NO_SCR  NO_SCR  NO_SCR  NO_SCR  NO_SCR 'N N N N N ' ];
+
+     budget=228;
+
+%   data_C = [ f_2_US  f_2_US  f_2_US  f_2_US  f_2_US  f_2_MAM  f_5_US 'N N N N N ' ];
+
+     budget=578;
+
+%   data_C = [ f_5_US  f_5_US  f_5_US  f_5_MAM  f_5_MAM  f_5_US  f_2_US 'N N N N N ' ];
+
+     budget=1431;
+
+%   data_C = [ f_10_US  f_10_US  f_10_US  f_10_MAM  f_10_MAM  f_5_US  f_2_US 'N N N N N ' ];
+
+     budget=2794;
+
+%   data_C = [ f_10_MRI  f_10_MAM_MRI  f_10_MAM_MRI  f_10_MAM_MRI  f_10_MAM_MRI f_5_US  f_2_US 'N N N N N ' ];
+
+     budget=16842;
+
+%   data_C = [ f_10_MAM_MRI  f_10_MAM_MRI  f_10_MAM_MRI  f_10_MAM_MRI  f_10_MAM_MRI f_5_US  f_2_US 'N N N N N ' ];
+
+     budget=17136;
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ data_C = [ f_1_US  NO_SCR  NO_SCR  NO_SCR  NO_SCR  NO_SCR  NO_SCR 'N N N N N ' ];
+
+data_C_corrected = correct_data(data_C);
+
+
+fileID = fopen('results_25_evaluation.txt','wt');
+
+      X=zeros(2*T*A*S);
+
+     budget=50000;
+
+     data = data_C_corrected;
+
+     [X,fval]=high_risk_screening_regular_policy_evaluation(budget,10,X,fileID,data);
+
+fval=-fval;
+
+fclose(fileID);
+
+fval
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+data_C = [ f_2_US  f_2_US  f_2_US  f_2_US  f_2_US  f_2_MAM  f_5_US 'N N N N N ' ];
+
+data_C_corrected = correct_data(data_C);
+
+
+fileID = fopen('results_25_evaluation.txt','wt');
+
+      X=zeros(2*T*A*S);
+
+     budget=50000;
+
+     data = data_C_corrected;
+
+     [X,fval]=high_risk_screening_regular_policy_evaluation(budget,10,X,fileID,data);
+
+fval=-fval;
+
+fclose(fileID);
+
+fval
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+data_C = [ f_5_US  f_5_US  f_5_US  f_5_MAM  f_5_MAM  f_5_US  f_2_US 'N N N N N ' ];
+
+data_C_corrected = correct_data(data_C);
+
+
+fileID = fopen('results_25_evaluation.txt','wt');
+
+      X=zeros(2*T*A*S);
+
+     budget=50000;
+
+     data = data_C_corrected;
+
+     [X,fval]=high_risk_screening_regular_policy_evaluation(budget,10,X,fileID,data);
+
+fval=-fval;
+
+fclose(fileID);
+
+fval
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ data_C = [ f_10_US  f_10_US  f_10_US  f_10_MAM  f_10_MAM  f_5_US  f_2_US 'N N N N N ' ];
+
+data_C_corrected = correct_data(data_C);
+
+
+fileID = fopen('results_25_evaluation.txt','wt');
+
+      X=zeros(2*T*A*S);
+
+     budget=50000;
+
+     data = data_C_corrected;
+
+     [X,fval]=high_risk_screening_regular_policy_evaluation(budget,10,X,fileID,data);
+
+fval=-fval;
+
+fclose(fileID);
+
+fval
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+data_C = [ f_10_MRI  f_10_MAM_MRI  f_10_MAM_MRI  f_10_MAM_MRI  f_10_MAM_MRI f_5_US  f_2_US 'N N N N N ' ];
+
+
+data_C_corrected = correct_data(data_C);
+
+
+fileID = fopen('results_25_evaluation.txt','wt');
+
+      X=zeros(2*T*A*S);
+
+     budget=50000;
+
+     data = data_C_corrected;
+
+     [X,fval]=high_risk_screening_regular_policy_evaluation(budget,10,X,fileID,data);
+
+fval=-fval;
+
+fclose(fileID);
+
+fval
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+   data_C = [ f_10_MAM_MRI  f_10_MAM_MRI  f_10_MAM_MRI  f_10_MAM_MRI  f_10_MAM_MRI f_5_US  f_2_US 'N N N N N ' ];
+
+
+data_C_corrected = correct_data(data_C);
+
+
+fileID = fopen('results_25_evaluation.txt','wt');
+
+      X=zeros(2*T*A*S);
+
+     budget=50000;
+
+     data = data_C_corrected;
+
+     [X,fval]=high_risk_screening_regular_policy_evaluation(budget,10,X,fileID,data);
+
+fval=-fval;
+
+fclose(fileID);
+
+fval

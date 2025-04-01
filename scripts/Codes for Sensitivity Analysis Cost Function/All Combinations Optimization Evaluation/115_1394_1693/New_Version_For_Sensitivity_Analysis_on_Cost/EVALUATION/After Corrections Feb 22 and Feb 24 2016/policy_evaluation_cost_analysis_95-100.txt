@@ -1,0 +1,20 @@
+fileID = fopen('results_95.txt','wt');
+
+
+MAM_COST = 115.58;
+MRI_COST = 1394.98;
+BIO_COST = 1510.56; 
+
+    X=zeros(2*6*5*6);
+
+     budget=20000;
+
+     data = ’N M R U C ’;
+
+     [X,fval(i)]=high_risk_screening_regular_policy_evaluation_cost_analysis_95(budget,10,X,fileID,data,MAM_COST, MRI_COST, BIO_COST);
+
+fval=-fval;
+
+fclose(fileID);
+
+fval
