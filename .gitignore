@@ -1,2 +1,35 @@
-*~
-*.o
+
+# macOS system files
+.DS_Store
+
+# MATLAB backup and data files
+*.asv
+*.autosave
+*.bak
+*.mat
+*.mex*
+*.fig
+*.log
+*.tmp
+
+# Compiled code or cache
+*.out
+*.exe
+*.dll
+*.pyc
+*.pyo
+*.class
+
+# Misc
+*.aux
+*.toc
+*.lof
+*.lot
+*.gz
+*.zip
+
+# VS Code / text editors
+.vscode/
+.idea/
+*.swp
+*.swo
