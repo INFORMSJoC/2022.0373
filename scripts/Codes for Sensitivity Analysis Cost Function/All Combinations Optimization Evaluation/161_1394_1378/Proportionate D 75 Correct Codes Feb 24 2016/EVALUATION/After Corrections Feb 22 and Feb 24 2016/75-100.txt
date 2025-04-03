@@ -1,0 +1,54 @@
+data_1 = ' N		 N		 N		 N		 N		 N		 N		 N		 N		N		N		 N		 N		 N		 N		 N		 N		 N		 N		N            N		 N		 N		 N		 N' ;				
+
+
+data_2 = ' U		 N		 N		 N		 N		 N		 N		 N		 N		N		U		 N		 N		 N		 N		 U		 N		 N		 N		N            N		 N		 N		 N		 N' ;	
+
+
+data_3 = ' M		 N		 N		 N		 N		 N		 N		 N		 N		N		M		 N		 N		 N		 N		 M		 N		 N		 N		N            N		 N		 N		 N		 N' ;				
+
+
+data_4 = ' U		 N		 N		 N		 N		 U		 N		 N		 N		N		U		 N		 U		 N		 U		 N		 U		 N		 U		N            N		 N		 N		 N		 N' ;	
+
+
+
+data_5 = ' M		 N		 N		 N		 N		 M		 N		 N		 N		N		U		 N		 U		 N		 U		 N		 U		 N		 U		N            N		 N		 N		 N		 N' ;
+
+
+
+data_6 = ' U		 N		 U		 N		 U		 N		 U		 N		 U		N		U		 N		 U		 N		 U		 N		 U		 N		 U		N            N		 N		 N		 N		 N' ;	
+
+
+
+
+data_7 = ' U		 U		 U		 U		 U		 U		 U		 U		 U		U		U		 N		 N		 N		 N		 U		 N		 N		 N		N            N		 N		 N		 N		 N' ;	
+
+
+
+
+data_7_1 = ' U		 U		 U		 U		 U		 U		 U		 U		 U		U		U		 N		 U		 N		 U		 N		 U		 N		 U		N            N		 N		 N		 N		 N' ;	
+
+
+data_1_75 = correct_data(data_1);
+data_2_75 = correct_data(data_2);
+data_3_75 = correct_data(data_3);
+data_4_75 = correct_data(data_4);
+data_5_75 = correct_data(data_5);
+data_6_75 = correct_data(data_6);
+data_7_75 = correct_data(data_7);
+data_7_1_75 = correct_data(data_7_1);
+
+fileID = fopen('results_75_evaluation.txt','wt');
+
+ X=zeros(2*26*5*6);
+
+     budget=20000;
+
+       data = data_7_75;   
+
+     [X,fval]=high_risk_screening_regular_policy_evaluation(budget,10,X,fileID,data);
+
+fval=-fval;
+
+fclose(fileID);
+
+fval

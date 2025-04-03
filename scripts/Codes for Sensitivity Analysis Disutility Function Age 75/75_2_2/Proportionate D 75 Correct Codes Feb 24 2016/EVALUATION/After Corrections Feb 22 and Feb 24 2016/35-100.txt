@@ -1,0 +1,22 @@
+data_10 = ' C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_9 = ' R		R		R		R		R		R		R		R		R		R		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_10_25 = correct_data(data_10);
+data_9_25 = correct_data(data_9);
+
+fileID = fopen('results_35_evaluation.txt','wt');
+
+     X=zeros(2*66*5*6);
+  
+     budget=16750;
+
+     data = data_10_25;
+  
+   [X,fval]=high_risk_screening_regular_policy_evaluation(budget,10,X,fileID,data);
+
+fval=-fval;
+
+fclose(fileID);
+
+fval

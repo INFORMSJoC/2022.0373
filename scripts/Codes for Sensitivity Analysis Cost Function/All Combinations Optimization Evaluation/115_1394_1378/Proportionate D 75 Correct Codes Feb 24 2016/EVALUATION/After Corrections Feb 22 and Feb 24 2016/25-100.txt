@@ -1,0 +1,122 @@
+data_7 = ' C		 C		 C		 C		 C		 C		 C		 C		 C		C		C		C		C		C		C		C		C		C		C		C		R		R		R		R		R		R		R		R		R		R		C		C		C		C		C		C		C		C		C		C		R		R		R		R		R		R		R		R		R		R		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_6 = ' R		 R		 R		 R		 R		 R		 R		 R		 R		R		C		C		C		C		C		C		C		C		C		C		R		R		R		R		R		R		R		R		R		R		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		U		N		N		N		N		N		N		N		N		N ';
+
+data_5 = ' U		 U		 U		 U		 U		 U		 U		 U		 U		U		U		U		U		U		U		U		U		U		U		U		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_4 = ' U		 N		 U		 N		 U		 N		 U		 N		 U		N		U		N		U		N		U		N		U		N		U		N		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		M		M		M		M		M		M		M		M		M		M		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_3 = ' U		 N		 N		 N		 N		 U		 N		 N		 N		N		U		N		N		N		N		U		N		N		N		N		U		N		N		N		N		U		N		N		N		N		M		N		N		N		N		M		N		N		N		N		U		N		U		N		U		N		U		N		U		N		U		U		U		U		U		U		U		U		U		U		U		N		N		N		N		U		N		N		N		N		N		N		N		N		N ';
+
+data_2 = ' U	         N		 N		 N		 N		 N		 N		 N		 N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		U		N		N		N		N		N		N		N		N		N		M		N		N		N		N		M		N		N		N		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_1 = ' N		 N		 N		 N		 N		 N		 N		 N		 N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N		N ';
+ 
+data_1_25 = correct_data(data_1);
+data_2_25 = correct_data(data_2);
+data_3_25 = correct_data(data_3);
+data_4_25 = correct_data(data_4);
+data_5_25 = correct_data(data_5);
+data_6_25 = correct_data(data_6);
+data_7_25 = correct_data(data_7);
+
+data_10 = ' C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_9 = ' C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		R		R		R		R		R		R		R		R		R		R		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_8 = ' R		R		R		R		R		R		R		R		R		R		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_8_25 = correct_data(data_8);
+data_9_25 = correct_data(data_9);
+data_10_25 = correct_data(data_10);
+
+data_10_1 = ' C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		U		U		U		U		U		U		U		U		U		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_10_2 = ' C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		N		N		N		N		N ';
+
+data_10_1_25 = correct_data(data_10_1);
+data_10_2_25 = correct_data(data_10_2);
+
+data_8_2 = ' R		R		R		R		R		R		R		R		R		R		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		U		U		U		U		U		U		U		U		U		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_8_1 = ' R		R		R		R		R		R		R		R		R		R		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_8_1_25 = correct_data(data_8_1);
+data_8_2_25 = correct_data(data_8_2);
+
+data_3_1 = ' U		 N		 N		 N		 N		 U		 N		 N		 N		N		U		N		N		N		N		U		N		N		N		N		U		N		N		N		N		U		N		N		N		N		M		N		N		N		N		M		N		N		N		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		U		N		N		N		N		N		N		N		N		N ';
+
+data_3_2 = ' U		 N		 N		 N		 N		 U		 N		 N		 N		N		U		N		N		N		N		U		N		N		N		N		U		N		N		N		N		U		N		N		N		N		M		N		N		N		N		M		N		N		N		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_3_3 = ' U		 N		 N		 N		 N		 U		 N		 N		 N		N		U		N		N		N		N		U		N		N		N		N		U		N		N		N		N		U		N		N		N		N		M		N		N		N		N		M		N		N		N		N		U		N		U		N		U		N		U		N		U		N		U		U		U		U		U		U		U		U		U		U		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_3_1_25 = correct_data(data_3_1);
+data_3_2_25 = correct_data(data_3_2);
+data_3_3_25 = correct_data(data_3_3);
+
+
+data_4_1 = ' U		 N		 U		 N		 U		 N		 U		 N		 U		N		U		N		U		N		U		N		U		N		U		N		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		M		M		M		M		M		M		M		M		M		M		U		U		U		U		U		U		U		U		U		U		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_4_2 = ' U		 N		 U		 N		 U		 N		 U		 N		 U		N		U		N		U		N		U		N		U		N		U		N		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		M		M		M		M		M		M		M		M		M		M		U		N		U		N		U		N		U		N		U		N		U		U		U		U		U		U		U		U		U		U		N		N		N		N		N ';
+
+data_4_1_25 = correct_data(data_4_1);
+data_4_2_25 = correct_data(data_4_2);
+
+data_5_1 = ' U		 U		 U		 U		 U		 U		 U		 U		 U		U		U		U		U		U		U		U		U		U		U		U		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		U		U		U		U		U		U		U		U		U		U		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_5_1_25 = correct_data(data_5_1);
+
+
+
+%…………………………………………………
+
+
+data_10_10_2 = ' C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		U		U		U		U		U		U		U		U		U		U		N		N		N		N		U		N		N		N		N		N		N		N		N		N ';
+
+
+data_8_10_2  = ' R		R		R		R		R		R		R		R		R		R		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		U		U		U		U		U		U		U		U		U		U		N		N		N		N		U		N		N		N		N		N		N		N		N		N ';
+
+data_4_10_2 = ' U		 N		 U		 N		 U		 N		 U		 N		 U		N		U		N		U		N		U		N		U		N		U		N		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		U		M		M		M		M		M		M		M		M		M		M		U		U		U		U		U		U		U		U		U		U		U		N		N		N		N		U		N		N		N		N		N		N		N		N		N ';
+
+data_5_10_2 = ' U		 U		 U		 U		 U		 U		 U		 U		 U		U		U		U		U		U		U		U		U		U		U		U		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		M		U		U		U		U		U		U		U		U		U		U		U		N		N		N		N		U		N		N		N		N		N		N		N		N		N ';
+
+data_3_5_5 = ' U		 N		 N		 N		 N		 U		 N		 N		 N		N		U		N		N		N		N		U		N		N		N		N		U		N		N		N		N		U		N		N		N		N		M		N		N		N		N		M		N		N		N		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+
+data_10_10_2_25 = correct_data(data_10_10_2);
+
+data_8_10_2_25 = correct_data(data_8_10_2);
+
+data_4_10_2_25 = correct_data(data_4_10_2);
+
+data_5_10_2_25 = correct_data(data_5_10_2);
+
+data_3_5_5_25 = correct_data(data_3_5_5);
+
+
+data_10_65 = '  C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		U		U		U		U		U		U		U		U		U		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_10_65_25 = correct_data(data_10_65);
+
+data_8_65 = '   R		R		R		R		R		R		R		R		R		R		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		U		U		U		U		U		U		U		U		U		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_8_65_25 = correct_data(data_8_65);
+
+
+fileID = fopen('results_25_evaluation.txt','wt');
+
+      X=zeros(2*76*5*6);
+ 
+     budget=16850;            % 16850 for 8_25, 17150 for 10_25
+
+     data = data_8_25 ;     
+
+     [X,fval]=high_risk_screening_regular_policy_evaluation(budget,10,X,fileID,data);
+
+fval=-fval;
+
+fclose(fileID);
+
+fval
+
+

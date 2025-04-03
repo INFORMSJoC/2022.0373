@@ -1,0 +1,14 @@
+fileID = fopen('results_35.txt','wt');
+
+     X=zeros(2*66*5*6);
+ for i=1:401
+     budget(i)=(i-1)*50;
+     [X,fval(i)]=high_risk_screening_regular_policy((i-1)*50,10,X,fileID);
+ end
+
+fval=-fval;
+plot(budget,fval,'*',budget,fval,':')
+
+fclose(fileID);
+
+fval'

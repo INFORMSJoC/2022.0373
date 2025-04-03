@@ -1,0 +1,49 @@
+data_10 = ' C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_9 = ' R		R		R		R		R		R		R		R		R		R		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		C		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		U		N		N		N		N		N		N ';
+
+data_10_25 = correct_data(data_10);
+data_9_25 = correct_data(data_9);
+
+f_1_US  = ' U N N N N N N N N N ';
+f_2_US  = ' U N N N N U N N N N ';
+f_5_US  = ' U N U N U N U N U N ';
+f_10_US = ' U U U U U U U U U U ';
+f_1_MAM  = ' M N N N N N N N N N ';
+f_2_MAM  = ' M N N N N M N N N N ';
+f_5_MAM  = ' M N M N M N M N M N ';
+f_10_MAM = ' M M M M M M M M M M ';
+f_1_MRI  = ' R N N N N N N N N N ';
+f_2_MRI  = ' R N N N N R N N N N ';
+f_5_MRI  = ' R N R N R N R N R N ';
+f_10_MRI = ' R R R R R R R R R R ';
+f_1_MAM_MRI  = ' C N N N N N N N N N ';
+f_2_MAM_MRI  = ' C N N N N C N N N N ';
+f_5_MAM_MRI  = ' C N C N C N C N C N ';
+f_10_MAM_MRI = ' C C C C C C C C C C ';
+NO_SCR = ' N N N N N N N N N N ';
+
+data_C = [ f_10_MAM f_10_MAM f_10_MAM f_10_MAM f_5_US f_5_US 'N N N N N ' ];
+
+data_C_35=correct_data(data_C);
+
+MAM_COST = 115.58;
+MRI_COST = 1394.98;
+BIO_COST = 1510.56; 
+
+fileID = fopen('results_35_evaluation.txt','wt');
+
+     X=zeros(2*66*5*6);
+  
+     budget=16750;
+
+     data = data_10_25;
+  
+   [X,fval]=high_risk_screening_regular_policy_evaluation_cost_analysis_35(budget,10,X,fileID,data,MAM_COST, MRI_COST, BIO_COST);
+
+
+fval=-fval;
+
+fclose(fileID);
+
+fval

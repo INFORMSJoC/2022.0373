@@ -1,0 +1,103 @@
+%-------------------BUDGET CONSTRAINTS ON EVERY FIVE YEARS START--------------- (Time-1)/5 Constraints
+
+% Medicare Resource-Based Relative Value Scale 2005. Chicago, 3: American Medical Association: 2005
+
+%Bilateral screening mammogram                      86  (70-120) 
+%Short interval follow-up mammogram                 78  (63-109) 
+%Ultrasound                                         70  (not varied) 
+%Mammogram-guided surgical biopsy                  1260 (1026-1758) 
+%Ultrasound-guided core needle biopsy               523 (not varied) 
+%Stereotactic biopsy                                778 (633-1086) 
+%Ultrasound-guided fine needle aspiration           463 (not varied)
+%Bilateral screening MRI                           1038 (800-1500) 
+%Short interval follow-up MRI                       787 (607-1137) 
+%MRI-guided surgical biopsy                        1678 (1293-2425) 
+%MRI-guided core needle biopsy                      960 (740-1387) 
+
+% alpha = 12-months inflation rate
+alpha= 1;
+inflation = (1.03)^(2015-2005);
+
+%  Cost_WAIT  =    0  ;
+%  Cost_CBE   =    0  ;
+  Cost_MAM     =   inflation*86    ;
+  Cost_ULTRA   =   inflation*70    ; 
+  Cost_MRI     =   inflation*1038  ;
+  Cost_BIO     =   inflation*1260  ;  
+  Cost_MAM_MRI = Cost_MAM + Cost_MRI;
+
+C_t = @(t) (alpha^(t-1))*[    0         0               0             0    0    0 ...
+                          Cost_MAM      Cost_MAM 	    Cost_MAM      0    0    0 ...
+                          Cost_MRI      Cost_MRI 	    Cost_MRI      0    0    0 ...
+                          Cost_ULTRA    Cost_ULTRA 	    Cost_ULTRA    0    0    0 ...
+                          Cost_MAM_MRI  Cost_MAM_MRI 	Cost_MAM_MRI  0    0    0   ]; 
+
+BIO_t = @(t) (alpha^(t-1))*[    0                 0               0             0    0    0 ...
+                            1-specMAM(t)      sensMAM(t)      sensMAM(t)        0    0    0 ...
+                            1-specMRI(t)      sensMRI(t)      sensMRI(t)        0    0    0 ...
+                            1-specULTRA(t)    sensULTRA(t)    sensULTRA(t)      0    0    0 ...
+                            1-specMAM_MRI(t)  sensMAM_MRI(t)  sensMAM_MRI(t)    0    0    0 ]; 
+
+
+% N_BC = Number of Budget Constraints 
+N_BC = floor( (Time-1)/TI_BC );
+
+% remaining years for the final budget constraint (IF ANY)
+Z = (Time-1)-N_BC*TI_BC;
+
+for k=1:N_BC
+
+     BIO = [];
+     C   = [];
+
+      for t=(1+(k-1)*TI_BC):(k*TI_BC)
+
+      C = [ C C_t(t) ];
+      BIO = [ BIO BIO_t(t) ];
+
+      end
+
+      BIO = Cost_BIO*BIO;
+
+%Budget_Constraint(k,:) = [ zeros(1,Action*State*(k-1)*TI_BC) BIO                  zeros(1,Action*State*(N_BC-k)*TI_BC)  zeros(1,Action*State*(Z+1)) ...
+%                           zeros(1,Action*State*(k-1)*TI_BC)  C                   zeros(1,Action*State*(N_BC-k)*TI_BC)  zeros(1,Action*State*(Z+1)) ] ;
+Budget_Constraint(k,:) = [ zeros(1,Action*State*(k-1)*TI_BC)  C+BIO                zeros(1,Action*State*(N_BC-k)*TI_BC)  zeros(1,Action*State*(Z+1)) ...
+                           zeros(1,Action*State*(k-1)*TI_BC)  zeros(1,size(BIO,2)) zeros(1,Action*State*(N_BC-k)*TI_BC)  zeros(1,Action*State*(Z+1)) ] ;
+
+% budget per person for (TI_BC) years
+b_C(k) = BUDGET_OF_SCREENING;
+
+end
+
+%..............................................................
+% remaining years for the final budget constraint
+% Z = (Time-1)-N_BC*TI_BC;
+
+if( Z > 0 )
+
+     BIO = [];
+     C   = [];
+
+      for t=(1+N_BC*TI_BC):(Time-1)
+
+      C = [ C C_t(t) ];
+      BIO = [ BIO BIO_t(t) ];
+
+      end
+
+      BIO = Cost_BIO*BIO;
+
+      %Budget_Constraint(N_BC+1,:) = [ zeros(1,Action*State*(N_BC)*TI_BC)  BIO                    zeros(1,Action*State*1) ...
+      %                                zeros(1,Action*State*(N_BC)*TI_BC)  C                      zeros(1,Action*State*1) ] ;
+       Budget_Constraint(N_BC+1,:) = [ zeros(1,Action*State*(N_BC)*TI_BC)  C+BIO                  zeros(1,Action*State*1) ...
+                                       zeros(1,Action*State*(N_BC)*TI_BC)  zeros(1,size(BIO,2))   zeros(1,Action*State*1) ] ;
+
+                                  if ( Z ~= 0)% Z=remaining years for the final budget constraint (IF ANY)
+      b_C(N_BC+1) = BUDGET_OF_SCREENING/(TI_BC/Z);
+                                  end
+end
+%..................................................................
+
+b_C = b_C';
+
+%-------------------BUDGET CONSTRAINTS ON EVERY FIVE YEARS END--------------

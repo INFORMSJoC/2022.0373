@@ -1,0 +1,25 @@
+f_10_MRI = ' R R R R R R R R R R'; 
+
+f_10_MAM_MRI = ' C C C C C C C C C C'; 
+
+f_5_US = ' U N U N U N U N U N'; 
+
+data_MRI = [f_10_MRI f_10_MAM_MRI f_10_MAM_MRI f_5_US f_5_US ' N N N N N'];
+
+data_MRI_45 = correct_data(data_MRI);
+
+fileID = fopen('results_45_evaluation.txt','wt');
+
+    X=zeros(2*56*5*6);
+
+     budget=15950;
+
+     data = data_MRI_45;
+
+      [X,fval]=high_risk_screening_regular_policy_evaluation(budget,10,X,fileID,data);
+
+fval=-fval;
+
+fclose(fileID);
+
+fval

@@ -1,0 +1,57 @@
+fileID = fopen('results_65.txt','wt');
+
+ X=zeros(2*36*5*6);
+ for i=1:401
+     budget(i)=(i-1)*50;
+     [X,fval(i)]=high_risk_screening_irregular_policy((i-1)*50,10,X,fileID);
+ end
+
+fval=-fval;
+plot(budget,fval,'*',budget,fval,':')
+
+fclose(fileID);
+
+fval'
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%             $0	$0%             $188	$182	%             $272	$264%             $388	$377%             $541	$526	%             $832	$808%             $1,182	$1,148%             $1,479	$1,436%             $2,150	$2,088%             $13,698	$13,299%             $15,226	$14,783
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+fileID = fopen('results_65.txt','wt');
+ X=zeros(2*36*5*6);
+
+      budget( 1) =   188/1.03 ;
+      budget( 2) =   272/1.03 ;
+      budget( 3) =   388/1.03 ;
+      budget( 4) =   541/1.03 ;
+      budget( 5) =   832/1.03 ;
+      budget( 6) =  1182/1.03 ;
+      budget( 7) =  1479/1.03 ;
+      budget( 8) =  2150/1.03 ;
+      budget( 9) = 13698/1.03 ;
+      budget(10) = 15226/1.03 ;
+
+      budget    = budget + 1 ;
+
+     [ X , fval( 1) ]= high_risk_screening_irregular_policy( budget( 1) , 10 , X , fileID );
+     [ X , fval( 2) ]= high_risk_screening_irregular_policy( budget( 2) , 10 , X , fileID );
+     [ X , fval( 3) ]= high_risk_screening_irregular_policy( budget( 3) , 10 , X , fileID );
+     [ X , fval( 4) ]= high_risk_screening_irregular_policy( budget( 4) , 10 , X , fileID );
+     [ X , fval( 5) ]= high_risk_screening_irregular_policy( budget( 5) , 10 , X , fileID );
+     [ X , fval( 6) ]= high_risk_screening_irregular_policy( budget( 6) , 10 , X , fileID );
+     [ X , fval( 7) ]= high_risk_screening_irregular_policy( budget( 7) , 10 , X , fileID );
+     [ X , fval( 8) ]= high_risk_screening_irregular_policy( budget( 8) , 10 , X , fileID );
+     [ X , fval( 9) ]= high_risk_screening_irregular_policy( budget( 9) , 10 , X , fileID );
+     [ X , fval(10) ]= high_risk_screening_irregular_policy( budget(10) , 10 , X , fileID );
+
+fval=-fval;
+
+fclose(fileID);
+
+fval'
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+
+
