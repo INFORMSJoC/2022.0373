@@ -47,20 +47,20 @@ The following software and toolboxes are required to run the scripts:
 
 ## **Citing This Repository**
 ```
-@article{Caglayan2025,
+@misc{Caglayan2025,
   author  = {Caglayan, C. and Ayer, T. and Ekwueme, D. U.},
-  title   = {Assessing Multi-Modality Breast Cancer Screening Strategies for BRCA 1/2 Gene Mutation Carriers and Other High-Risk Populations},
-  journal = {INFORMS Journal on Computing},
+  publisher = {INFORMS Journal on Computing},
+  title   = {{Assessing Multi-Modality Breast Cancer Screening Strategies for BRCA 1/2 Gene Mutation Carriers and Other High-Risk Populations}},
   year    = {2025},
-  doi     = {10.1287/ijoc.2022.0373},
-  url     = {https://github.com/INFORMSJoC/2022.0373}
+  doi     = {10.1287/ijoc.2022.0373.cd},
+  url     = {https://github.com/INFORMSJoC/2022.0373},
+  note    = {Available for download at https://github.com/INFORMSJoC/2022.0373}
 }
 ```
 
 ## **DOI Links**
-- Zenodo DOI: https://doi.org/10.5281/zenodo.1234567  
-- INFORMS JOC Article: https://pubsonline.informs.org/doi/10.1287/ijoc.2022.0373  
-- IJOC GitHub Archive: https://github.com/INFORMSJoC/2022.0373
+- Paper: https://doi.org/10.1287/ijoc.2022.0373
+- Repo: https://doi.org/10.1287/ijoc.2022.0373.cd
 
 ## **Contact**
 For any questions regarding the repository, please contact Dr. Çağlar Çağlayan (caglar.caglayan@jhuapl.edu).
